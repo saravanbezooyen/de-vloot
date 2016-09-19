@@ -1,0 +1,45 @@
+body {
+	font-family: sans-serif;
+	background-image: url('img/bg.png');
+}
+
+header {
+	background-image: url('img/header.jpg');
+	width: 800px;
+	height: 272px;
+	margin: auto;
+	margin-top: 0px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 10px;
+    padding-top:125px;
+    padding-left: 10px;
+    overflow: hidden;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    padding: 8px;
+    background-color: transparent;
+    color: white;
+    text-decoration: none;
+}
+
+.top-left {
+	 float: left;
+	 padding: 10px;
+}
+
+div {
+	width: 800px;
+	height: auto;
+	margin: auto;
+	background-color: white;
+	overflow: auto;
+}
