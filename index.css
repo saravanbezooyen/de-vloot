@@ -1,20 +1,47 @@
 body {
 	font-family: sans-serif;
 	background-image: url('img/bg.png');
+	background-repeat: repeat-x;
+	margin:0px;
 }
 
 header {
 	background-image: url('img/header.jpg');
-	width: 800px;
-	height: 272px;
-	margin: auto;
-	margin-top: 0px;
+ 	background-size: cover;
+ 	background-repeat: no-repeat;
+ 	background-position: left 25% right 25%;
+ 	margin-left: 25%;
+ 	margin-right: 25%;
+ 	height: 267px;
+ 	max-width: 1000px;
+ 	position: relative;
+}
+
+.header h1 {
+ 	margin-bottom: 0;
+ 	margin-left: 20px;
+ }
+ 
+ .header p {
+ 	margin-top: 0;
+ 	margin-left: 20px;
+ }
+
+h1 {
+	margin:0px;
+	padding: 0px;
+	margin-left: 10px;
+}
+
+h2 {
+	padding: 5px;
+	margin: 5px;
 }
 
 ul {
     list-style-type: none;
     margin: 10px;
-    padding-top:125px;
+    padding-top:150px;
     padding-left: 10px;
     overflow: hidden;
 }
@@ -31,15 +58,51 @@ li a {
     text-decoration: none;
 }
 
+li a:hover {
+ 	color: #0489B1;
+ }
+
 .top-left {
-	 float: left;
-	 padding: 10px;
+	float: left;
+	padding: 15px 15px 15px 0px;
+}
+
+.top-right {
+ 	float: right;
+ 	padding: 0px 0px 15px 15px;
+ }
+
+.middle-right {
+	float: right;
+	padding: 15px 15px 15px 15px;
+}
+
+.bottom-left {
+ 	float: left;
+ 	padding: 15px 15px 15px 0px;
+ }
+
+.top {
+	padding: 0px;
+	margin-top: 0px;
+	margin-left: 10px;
+}
+
+.bottom-right {
+	float: right;
+	padding: 15px 0px 15px 15px;
 }
 
 div {
-	width: 800px;
-	height: auto;
-	margin: auto;
-	background-color: white;
-	overflow: auto;
+	background-color: #FFFFFF;
+ 	margin-left: 25%;
+ 	margin-right: 25%;
+	padding-top: 25px;
+ 	padding-left: 15px;
+ 	padding-right: 15px;
+	max-width: 1000px;
 }
+
+.div h2 {
+ 	margin-top: 0px;
+ }
